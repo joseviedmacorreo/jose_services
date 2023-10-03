@@ -63,7 +63,7 @@ services:
       - mongo
 
     extra_hosts:
-      - "localhost:192.168.0.6"
+      - "localhost:3.12.201.168"
 
     environment:
       EMQX_NAME: Biotech-IoT
